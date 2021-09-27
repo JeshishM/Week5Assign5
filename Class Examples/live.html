@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CS50C Week 5 Live Example</title>
+    <style>
+      .myclass {
+        background-color: yellow;
+        padding: 10px;
+      }
+      .myclass2 {
+        color: green;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+
+    <form>
+      <p>
+        <label for="number1">#1</label>
+        <input id="number1" placeholder="enter a number">
+      </p>
+      <p>
+        <label for="number2">#2</label>
+        <input id="number2" placeholder="enter a number">
+      </p>
+      <p>
+        <button id="submit" type="button">Add it up</button>
+      </p>
+      <p id="calculator-output"></p>
+      <p id="calculator-output-jquery"></p>
+    </form>
+
+    <h1>jQuery Example</h1>
+    <p class="pickles">Stuff</p>
+    <p class="pickles">Stuff</p>
+
+    <h2>Other Heading</h2>
+    <p class="pickles">Stuff</p>
+    <p class="pickles">Stuff</p>
+    <p class="pickles">Stuff</p>
+
+    <p id="fred">Unique</p>
+
+    <!-- 1. load jquery at end of body to let browser draw page quickly -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- 2. after you load jquery js file you can load your custom scripts -->
+    <script src="live.js"></script>
+  </body>
+</html>

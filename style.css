@@ -1,0 +1,19 @@
+#header1{
+	background-color: rgb(32, 122, 173);
+	color: white;
+	padding: 10px;
+	margin: 0, 15%;
+}
+.mypage{
+	text-align: center;
+}
+.all{
+	font-size:25px;
+}
+#counter{
+	color: green;
+	font-size: 25px;
+}
+#answers{
+		width:auto;
+}
